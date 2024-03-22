@@ -222,13 +222,13 @@ fun main() {
 
     /***********************************************/
     //62 - Idioms (Deyimler) Bir nesnenin özelliklerini yapılandırma
-    class Car2 {
+    class Car5 {
         var brand: String = ""
         var model: String = ""
         var year: Int = 0
     }
 
-    val car2 = Car2().apply {
+    val car2 = Car5().apply {
         brand = "BMW"
         model = "X5"
         year = 2020
